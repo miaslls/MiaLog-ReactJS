@@ -1,11 +1,11 @@
 function Letter() {
   return (
     <>
-      <section class="element" id="letter-element">
-        <div class="animate-element">
+      <section className="element" id="letter-element">
+        <div className="animate-element">
           <div id="letter-container">
             <div id="letter-logo">
-              <i class="ri-emotion-2-line"></i>
+              <i className="ri-emotion-2-line"></i>
             </div>
             <h1>
               <div id="letter-title">
@@ -20,14 +20,14 @@ function Letter() {
         </div>
       </section>
 
-      <section class="element-label" id="letter-element-label">
+      <section className="element-label" id="letter-element-label">
         <img
           src="assets/SVG/arrow-about.svg"
           alt="arrow"
-          class="label-arrow"
+          className="label-arrow"
           id="letter-element-label-arrow"
         />
-        <div class="element-label-text" id="letter-element-label-text">
+        <div className="element-label-text" id="letter-element-label-text">
           <h2>ABOUT</h2>
           <ul>
             <li>

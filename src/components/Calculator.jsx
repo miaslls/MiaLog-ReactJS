@@ -1,18 +1,18 @@
 function Calculator() {
   return (
     <>
-      <section class="element" id="calculator-element">
-        <div class="animate-element">
+      <section className="element" id="calculator-element">
+        <div className="animate-element">
           <div id="calculator-container">
             <div id="calculator-solar-container">
-              <div class="calculator-solar-part"></div>
-              <div class="calculator-solar-part"></div>
-              <div class="calculator-solar-part"></div>
-              <div class="calculator-solar-part"></div>
-              <div class="calculator-solar-part"></div>
-              <div class="calculator-solar-part"></div>
-              <div class="calculator-solar-part"></div>
-              <div class="calculator-solar-part"></div>
+              <div className="calculator-solar-part"></div>
+              <div className="calculator-solar-part"></div>
+              <div className="calculator-solar-part"></div>
+              <div className="calculator-solar-part"></div>
+              <div className="calculator-solar-part"></div>
+              <div className="calculator-solar-part"></div>
+              <div className="calculator-solar-part"></div>
+              <div className="calculator-solar-part"></div>
             </div>
 
             <div id="calculator-display">
@@ -20,20 +20,20 @@ function Calculator() {
             </div>
 
             <div id="calculator-button-container">
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
-              <div class="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
+              <div className="calculator-button-small"></div>
 
               <div id="calculator-button-large"></div>
             </div>
@@ -41,15 +41,15 @@ function Calculator() {
         </div>
       </section>
 
-      <section class="element-label" id="calculator-element-label">
+      <section className="element-label" id="calculator-element-label">
         <img
           src="assets/SVG/arrow-calculator.svg"
           alt="arrow"
-          class="label-arrow"
+          className="label-arrow"
           id="calculator-element-label-arrow"
         />
 
-        <div class="element-label-text" id="calculator-element-label-text">
+        <div className="element-label-text" id="calculator-element-label-text">
           <h2>calculator</h2>
         </div>
       </section>
