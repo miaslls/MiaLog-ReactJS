@@ -1,0 +1,131 @@
+/* ADOBE FONTS */
+@import url("https://use.typekit.net/afj3hjl.css");
+
+/* REMIX ICONS */
+@import url("https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css");
+
+/* ELEMENT STYLES */
+
+@import "landscape/style-letter.css";
+@import "landscape/style-planner.css";
+@import "landscape/style-notes.css";
+@import "landscape/style-journal.css";
+@import "landscape/style-businesscard.css";
+@import "landscape/style-creditcards.css";
+@import "landscape/style-calculator.css";
+
+@import "portrait/style-letter.css" (orientation: portrait);
+@import "portrait/style-planner.css" (orientation: portrait);
+@import "portrait/style-notes.css" (orientation: portrait);
+@import "portrait/style-journal.css" (orientation: portrait);
+@import "portrait/style-businesscard.css" (orientation: portrait);
+@import "portrait/style-creditcards.css" (orientation: portrait);
+@import "portrait/style-calculator.css" (orientation: portrait);
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: #a0cbd2;
+  background: linear-gradient(120deg, #a0cbd2 0%, #93c3cf 35%, #5a98a7 100%);
+  font-family: six-hands-marker, sans-serif;
+  font-weight: 700;
+  color: #00000090;
+}
+
+main {
+  position: relative;
+}
+
+@media screen and (orientation: landscape) {
+  main {
+    width: 1000px;
+    height: 500px;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  main {
+    width: 350px;
+    height: 600px;
+  }
+}
+
+.element {
+  position: absolute;
+  font-family: new-order, sans-serif;
+  font-weight: 400;
+}
+
+.animate-element {
+  position: relative;
+}
+
+.animate-element:hover {
+  animation: shake 0.6s;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate(-0.25px, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate(0.5px, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate(-1px, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate(1px, 0);
+  }
+}
+
+.element-label {
+  position: absolute;
+}
+
+.element-label-text {
+  text-align: center;
+  font-size: 90%;
+}
+
+.element-label-text h2 {
+  font-size: 110%;
+  box-sizing: content-box;
+  margin-bottom: 5%;
+}
+
+.label-arrow {
+  opacity: 60%;
+  position: absolute;
+}
+
+.element-label-text {
+  font-size: medium;
+}
+
+@media screen and (orientation: portrait) {
+  .element-label ul {
+    display: none;
+  }
+
+  .animate-element:hover {
+    animation: none;
+  }
+}

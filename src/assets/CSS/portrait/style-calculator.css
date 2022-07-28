@@ -1,0 +1,35 @@
+#calculator-element-label {
+  top: 3%;
+  left: 8%;
+}
+
+#calculator-element-label-arrow {
+  width: 20px;
+}
+
+#calculator-element {
+  top: 10%;
+  left: 25%;
+}
+
+#calculator-container {
+  width: 30px;
+  border-radius: 2.5px;
+  box-shadow: 2.5px 2.5px 15 #00000050;
+}
+
+.calculator-solar-part {
+  border-left: 0.5px solid #ffffff50;
+}
+
+#calculator-display-text {
+  display: none;
+}
+
+.calculator-button-small {
+  border-radius: 1px;
+}
+
+#calculator-button-large {
+  border-radius: 1px;
+}

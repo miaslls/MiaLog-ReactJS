@@ -1,0 +1,44 @@
+#businesscard-element-label {
+  top: 18%;
+  right: 25%;
+}
+
+#businesscard-element-label-arrow {
+  width: 25px;
+  bottom: 15%;
+  right: 120%;
+  transform: rotate(-5deg);
+}
+
+#businesscard-element {
+  top: 15%;
+  left: 55%;
+  transform: rotate(2deg);
+}
+
+#businesscard-container {
+  width: 80px;
+  aspect-ratio: 3/2;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-wrap: break-word;
+  background: #36313d;
+  color: #cecdcb95;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px #00000050;
+}
+
+#user-icon {
+  width: 25%;
+  aspect-ratio: 1;
+  font-size: 100%;
+}
+
+#user-name {
+  width: 100%;
+  text-align: center;
+  font-size: 80%;
+}
