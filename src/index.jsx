@@ -9,7 +9,8 @@ import Letter from "./components/Letter";
 import Notes from "./components/Notes";
 import Planner from "./components/Planner";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
     <main>
       <BusinessCard />
@@ -20,6 +21,5 @@ ReactDOM.render(
       <Planner />
       <Notes />
     </main>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
