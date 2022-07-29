@@ -82,3 +82,58 @@
   bottom: 15%;
   right: 7%;
 }
+
+@media screen and (orientation: portrait) {
+  #letter-element-label {
+    bottom: 9%;
+    transform: rotate(-5deg);
+  }
+
+  #letter-element-label-arrow {
+    width: 20px;
+    top: -90%;
+    bottom: unset;
+    left: 110%;
+  }
+
+  #letter-element-label-text {
+    transform: rotate(-1deg);
+  }
+
+  #letter-element {
+    bottom: 20%;
+    left: 15%;
+  }
+
+  #letter-element > div {
+    box-shadow: 2.5px 2.5px 15px #00000050;
+  }
+
+  /* 📌 LETTER */
+
+  #letter-container {
+    width: 60px;
+  }
+
+  #letter-logo {
+    display: none;
+  }
+
+  #letter-title {
+    font-size: 80%;
+  }
+
+  /* 📌 ENVELOPE */
+
+  #envelope-container {
+    width: 60px;
+  }
+
+  #envelope-flap {
+    border-width: 15px 30px 0 30px;
+  }
+
+  #envelope-label {
+    border-radius: 1.5px;
+  }
+}

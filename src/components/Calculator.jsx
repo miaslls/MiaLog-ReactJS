@@ -1,3 +1,6 @@
+import "../assets/CSS/Calculator.css";
+import arrow from "../assets/SVG/arrow-calculator.svg";
+
 function Calculator() {
   return (
     <>
@@ -43,7 +46,7 @@ function Calculator() {
 
       <section className="element-label" id="calculator-element-label">
         <img
-          src="assets/SVG/arrow-calculator.svg"
+          src={arrow}
           alt="arrow"
           className="label-arrow"
           id="calculator-element-label-arrow"

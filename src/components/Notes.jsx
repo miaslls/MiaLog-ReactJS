@@ -1,3 +1,6 @@
+import "../assets/CSS/Notes.css";
+import arrow from "../assets/SVG/arrow-notes.svg";
+
 function FunctionName() {
   return (
     <>
@@ -11,7 +14,7 @@ function FunctionName() {
 
       <section className="element-label" id="notes-element-label">
         <img
-          src="assets/SVG/arrow-notes.svg"
+          src={arrow}
           alt="arrow"
           className="label-arrow"
           id="notes-element-label-arrow"

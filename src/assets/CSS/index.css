@@ -6,7 +6,7 @@
 
 /* ELEMENT STYLES */
 
-@import "landscape/style-letter.css";
+/* @import "landscape/style-letter.css";
 @import "landscape/style-planner.css";
 @import "landscape/style-notes.css";
 @import "landscape/style-journal.css";
@@ -20,7 +20,7 @@
 @import "portrait/style-journal.css" (orientation: portrait);
 @import "portrait/style-businesscard.css" (orientation: portrait);
 @import "portrait/style-creditcards.css" (orientation: portrait);
-@import "portrait/style-calculator.css" (orientation: portrait);
+@import "portrait/style-calculator.css" (orientation: portrait); */
 
 * {
   box-sizing: border-box;

@@ -1,3 +1,6 @@
+import "../assets/CSS/CreditCards.css";
+import arrow from "../assets/SVG/arrow-finances.svg";
+
 function CreditCards() {
   return (
     <>
@@ -28,7 +31,7 @@ function CreditCards() {
 
       <section className="element-label" id="creditcards-element-label">
         <img
-          src="assets/SVG/arrow-finances.svg"
+          src={arrow}
           alt="arrow"
           className="label-arrow"
           id="creditcards-element-label-arrow"

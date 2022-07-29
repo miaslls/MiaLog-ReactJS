@@ -1,3 +1,6 @@
+import "../assets/CSS/BusinessCard.css";
+import arrow from "../assets/SVG/arrow-logout.svg";
+
 function BusinessCard() {
   return (
     <>
@@ -14,7 +17,7 @@ function BusinessCard() {
 
       <section className="element-label" id="businesscard-element-label">
         <img
-          src="assets/SVG/arrow-logout.svg"
+          src={arrow}
           alt="arrow"
           className="label-arrow"
           id="businesscard-element-label-arrow"

@@ -1,3 +1,6 @@
+import "../assets/CSS/Planner.css";
+import arrow from "../assets/SVG/arrow-planner.svg";
+
 function Planner() {
   return (
     <>
@@ -70,7 +73,7 @@ function Planner() {
 
       <section className="element-label" id="planner-element-label">
         <img
-          src="assets/SVG/arrow-planner.svg"
+          src={arrow}
           alt="arrow"
           className="label-arrow"
           id="planner-element-label-arrow"

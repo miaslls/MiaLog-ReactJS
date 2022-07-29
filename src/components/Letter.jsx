@@ -1,3 +1,6 @@
+import "../assets/CSS/Letter.css";
+import arrow from "../assets/SVG/arrow-about.svg";
+
 function Letter() {
   return (
     <>
@@ -22,7 +25,7 @@ function Letter() {
 
       <section className="element-label" id="letter-element-label">
         <img
-          src="assets/SVG/arrow-about.svg"
+          src={arrow}
           alt="arrow"
           className="label-arrow"
           id="letter-element-label-arrow"

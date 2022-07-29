@@ -1,3 +1,6 @@
+import "../assets/CSS/Journal.css";
+import arrow from "../assets/SVG/arrow-journal.svg";
+
 function Journal() {
   return (
     <>
@@ -22,7 +25,7 @@ function Journal() {
 
       <section className="element-label" id="journal-element-label">
         <img
-          src="assets/SVG/arrow-journal.svg"
+          src={arrow}
           alt="arrow"
           className="label-arrow"
           id="journal-element-label-arrow"
