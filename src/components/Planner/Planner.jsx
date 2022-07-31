@@ -1,5 +1,5 @@
-import "../assets/CSS/Planner.css";
-import arrow from "../assets/SVG/arrow-planner.svg";
+import "./Planner.css";
+import arrow from "./arrow-planner.svg";
 
 function Planner() {
   return (

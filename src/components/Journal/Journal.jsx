@@ -1,5 +1,5 @@
-import "../assets/CSS/Journal.css";
-import arrow from "../assets/SVG/arrow-journal.svg";
+import "./Journal.css";
+import arrow from "./arrow-journal.svg";
 
 function Journal() {
   return (

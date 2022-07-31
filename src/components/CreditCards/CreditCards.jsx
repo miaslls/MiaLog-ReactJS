@@ -1,5 +1,5 @@
-import "../assets/CSS/CreditCards.css";
-import arrow from "../assets/SVG/arrow-finances.svg";
+import "./CreditCards.css";
+import arrow from "./arrow-finances.svg";
 
 function CreditCards() {
   return (

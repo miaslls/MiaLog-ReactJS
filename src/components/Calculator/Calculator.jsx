@@ -1,5 +1,5 @@
-import "../assets/CSS/Calculator.css";
-import arrow from "../assets/SVG/arrow-calculator.svg";
+import "./Calculator.css";
+import arrow from "./arrow-calculator.svg";
 
 function Calculator() {
   return (

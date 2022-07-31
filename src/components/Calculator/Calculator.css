@@ -1,7 +1,7 @@
 @font-face {
   font-family: "alarm-clock";
-  src: url("../FONT/alarm-clock.woff2") format("woff2"),
-    url("../FONT/alarm-clock.woff") format("woff");
+  src: url("./alarm-clock.woff2") format("woff2"),
+    url("./alarm-clock.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

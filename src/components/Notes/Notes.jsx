@@ -1,5 +1,5 @@
-import "../assets/CSS/Notes.css";
-import arrow from "../assets/SVG/arrow-notes.svg";
+import "./Notes.css";
+import arrow from "./arrow-notes.svg";
 
 function FunctionName() {
   return (

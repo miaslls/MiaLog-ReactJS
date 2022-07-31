@@ -1,5 +1,5 @@
-import "../assets/CSS/BusinessCard.css";
-import arrow from "../assets/SVG/arrow-logout.svg";
+import "./BusinessCard.css";
+import arrow from "./arrow-logout.svg";
 
 function BusinessCard() {
   return (

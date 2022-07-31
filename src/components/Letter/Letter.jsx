@@ -1,5 +1,5 @@
-import "../assets/CSS/Letter.css";
-import arrow from "../assets/SVG/arrow-about.svg";
+import "./Letter.css";
+import arrow from "./arrow-about.svg";
 
 function Letter() {
   return (
