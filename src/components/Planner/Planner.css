@@ -1,11 +1,11 @@
 #planner-element-label {
-  top: 52%;
+  top: 57%;
   left: 30%;
 }
 
 #planner-element-label-arrow {
   width: 50px;
-  top: 15%;
+  top: -50%;
   left: 130%;
   transform: rotate(-20deg);
 }

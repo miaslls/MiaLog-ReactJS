@@ -32,11 +32,6 @@ function Journal() {
         />
         <div className="element-label-text" id="journal-element-label-text">
           <h2>JOURNAL</h2>
-          <ul>
-            <li>moods</li>
-            <li>journal</li>
-            <li>statistics</li>
-          </ul>
         </div>
       </section>
     </>

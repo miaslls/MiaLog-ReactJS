@@ -87,6 +87,7 @@ main {
 .element-label-text {
   text-align: center;
   font-size: 90%;
+  font-size: medium;
 }
 
 .element-label-text h2 {
@@ -100,15 +101,7 @@ main {
   position: absolute;
 }
 
-.element-label-text {
-  font-size: medium;
-}
-
 @media screen and (orientation: portrait) {
-  .element-label ul {
-    display: none;
-  }
-
   .animate-element:hover {
     animation: none;
   }

@@ -80,11 +80,6 @@ function Planner() {
         />
         <div className="element-label-text" id="planner-element-label-text">
           <h2>PLANNER</h2>
-          <ul>
-            <li>to-dos</li>
-            <li>calendar</li>
-            <li>shopping list</li>
-          </ul>
         </div>
       </section>
     </>
