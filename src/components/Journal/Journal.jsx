@@ -4,7 +4,7 @@ import arrow from "./arrow-journal.svg";
 function Journal() {
   return (
     <>
-      <section className="element" id="journal-element">
+      <section className="element active-element" id="journal-element">
         <div className="animate-element">
           <div id="journal-container">
             <div id="journal-body"></div>

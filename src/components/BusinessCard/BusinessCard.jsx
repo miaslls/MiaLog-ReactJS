@@ -4,7 +4,7 @@ import arrow from "./arrow-logout.svg";
 function BusinessCard() {
   return (
     <>
-      <section className="element" id="businesscard-element">
+      <section className="element active-element" id="businesscard-element">
         <div className="animate-element">
           <div id="businesscard-container">
             <div id="user-icon">
