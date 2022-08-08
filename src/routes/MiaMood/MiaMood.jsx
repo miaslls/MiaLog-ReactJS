@@ -1,6 +1,6 @@
-import { useState, UseEffect, useEffect } from "react";
+// import { useState, UseEffect, useEffect } from "react";
 
-import MoodService from "../../services/MoodService";
+// import MoodService from "../../services/MoodService";
 
 import "./MiaMood.css";
 
