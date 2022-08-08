@@ -106,3 +106,21 @@ main {
     animation: none;
   }
 }
+
+#businesscard-element {
+  top: 15%;
+  left: 55%;
+  transform: rotate(2deg);
+}
+
+#calculator-element {
+  top: 20%;
+  left: 32%;
+  transform: rotate(10deg);
+}
+
+#creditcards-element {
+  top: 30%;
+  left: 45%;
+  transform: rotate(-10deg);
+}
